@@ -2,6 +2,7 @@ apiVersion: 1
 
 datasources:
   - name: grafana-postgresql-datasource
+    uid: "8rTXXfF4z"
     type: postgres
     url: postgres:5432
     database: envobsDB
