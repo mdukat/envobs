@@ -37,6 +37,8 @@ $ sudo apt install python3 python3-docker python3-psutil
 ```
 
 ## TODO
+ - Multithread agent docker query, or migrate to `docker stats --format json`
+ - Show max RAM and SWAP in their own widgets, instead of "Host memory" panel
  - Sum of containers RAM usage
  - Disk IO usage per container
  - Network IO usage per container
