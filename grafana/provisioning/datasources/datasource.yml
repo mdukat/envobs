@@ -1,0 +1,15 @@
+apiVersion: 1
+
+datasources:
+  - name: grafana-postgresql-datasource
+    uid: "8rTXXfF4z"
+    type: postgres
+    url: postgres:5432
+    database: envobsDB
+    user: user
+    secureJsonData:
+      password: "password"
+    jsonData:
+      sslmode: "disable"
+      postgresVersion: 1700
+      timescaledb: false
